@@ -1,0 +1,44 @@
+									curso de git 
+
+
+	comandos de configuração 
+
+git config --global user. name "gabriel"
+	   --global user.email ""
+	   	coore.editor "vs"
+ 
+comandos para lista das configurações
+
+git config --list
+ 
+===========================================
+
+git init para iniciar novo repositorio 
+
+
+	git status ver se tem alteração
+
+	git log para ver todos os comits 
+
+	git add -A para salvar as alterações 
+	
+	git commit -m para comitar ou -am para comitar e adicionar 
+		
+		git branch para ver em qual branch estou no caso master  é pela head 
+
+
+===========================================
+git reset para resetar 
+
+quero voltar para tal comit, pegar o codigo dele, 2bc123421342344
+inteiro ou os 7 primeiuros   e  colocar 
+
+
+	git soft  --- volta no outro comit mas com as alterações sem commit, antes do commit tem acesso as alterações --RECOMENDADO altero mas nao comenta 
+	git mixed  == mesma coisa mas nao vai ta preparado pra comitar, perde as alterações se nao der add no git
+	git hard --- ignora tudo que uma vez exisiu,  e volta os arquivos para o comit escolhido entao exclui tudo  --NAO RECOMENDADO EQUIPE
+	
+	git reset --hard   ebc86294f0f3a8609c6c87eb62c4017d693e9368
+
+
+
