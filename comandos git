@@ -34,9 +34,16 @@ quero voltar para tal comit, pegar o codigo dele, 2bc123421342344
 inteiro ou os 7 primeiuros   e  colocar 
 
 
-	git soft  --- volta no outro comit mas com as alterações sem commit, antes do commit tem acesso as alterações --RECOMENDADO altero mas nao comenta 
+	git soft  --- volta no outro comit mas com as alterações sem commit, antes do commit tem acesso as alterações --RECOMENDADO mantem os arquivos mas nao da commit nem add  tem que fazer isso 
 	git mixed  == mesma coisa mas nao vai ta preparado pra comitar, perde as alterações se nao der add no git
 	git hard --- ignora tudo que uma vez exisiu,  e volta os arquivos para o comit escolhido entao exclui tudo  --NAO RECOMENDADO EQUIPE
+parei no 1:05	
+	
+	
+	
+	
+	
+	
 	
 	git reset --hard   ebc86294f0f3a8609c6c87eb62c4017d693e9368
 
