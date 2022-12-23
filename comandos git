@@ -64,5 +64,9 @@ git branch-->lista as branchs
 
 git checkout teste -->mudar de branch para teste 
 
+salvei em um branch nao salva no outro .
 
+temos 2 tipos de historico agora
+
+caso eu der um chekout e ir pro teste altero o arquivo fica salvo aqui, se voltar no mastar ta outra coisa 
 
