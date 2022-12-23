@@ -39,13 +39,30 @@ inteiro ou os 7 primeiuros   e  colocar
 	git hard --- ignora tudo que uma vez exisiu,  e volta os arquivos para o comit escolhido entao exclui tudo  --NAO RECOMENDADO EQUIPE
 parei no 1:05	
 	
-	
-	
-	
-	
-	
+ 
 	
 	git reset --hard   ebc86294f0f3a8609c6c87eb62c4017d693e9368
+
+=========================================
+
+
+BRANCHS
+
+
+
+git branch lista todas as branchs, e o * é a que estou
+
+cada branch tem seu historico
+
+caso crio uma nova ele pega oque eu tenho que começa uma nova a partir do que tenho
+
+
+
+git branch teste ===> criar nova branch
+
+git branch-->lista as branchs
+
+git checkout teste -->mudar de branch para teste 
 
 
 
