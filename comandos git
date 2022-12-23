@@ -123,3 +123,83 @@ Começando com o GITHUB
 repositorios remotos--> pegar o local do nosso pc master e  mandar pra nuvem no github
 
 
+Criar conta no git hub e  fazer um repoisitorio nao precisa colocar o readme 
+Adicionar nova ssh
+comandos :
+
+	ssh-keygen -t rsa -b 4096 -C "gabrielmaiagit11@gmail.com"
+	apertar enter denovo
+	Your identification has been saved in /home/gabrielmaia/.ssh/id_rsa
+Your public key has been saved in /home/gabrielmaia/.ssh/id_rsa.pub   ::local das chaves 
+
+pegar a  chave publica e colar la na adicao de nova ssh no git hub e  por senha 
+
+(nao e obrigado senha na ssh)
+
+
+Adciionar um token no git jhub  marcando apenas a peinmeira opcao e eu fui e atutehnticando 
+
+Adicionar repositorio remoto origin é o nome qualquer padrao e adicionamos o origin para esse modulo git 
+
+adicionar um repositiorio remoto ao nosso local com as duas ligações do remoto e  local no github 
+
+git remote add origin https://github.com/gabrielpmaia11/modulogit.git
+outros comandos que ta no site para por 
+
+ ver  o reposorio adicionado git remote :
+ 
+gabrielmaia@gabrielmaia-VirtualBox:~/Área de Trabalho/git$ 				git remote  (ver qual meu remoto no caso e  o origin)
+origin -->repositorio
+
+push é colocar do local pro remoto 
+feth é pra pegar do remto e colocar no meu computador pra puchar 
+
+ver detalhes com o fech ou push 
+
+gabrielmaia@gabrielmaia-VirtualBox:~/Área de Trabalho/git$ 				git remote -v  (mais detalhes ))
+origin	https://github.com/gabrielpmaia11/modulogit.git (fetch) pegar 
+origin	https://github.com/gabrielpmaia11/modulogit.git (push)  enviar 
+gabrielmaia@gabrielmaia-VirtualBox:~/Área de Trabalho/git$ git push -u origin master
+
+ 
+Enviar  push
+
+-->comando de enviar os codigos com alterações do local para o remoto 
+o u é complemento  e o destino é o origem e a branch master 
+to endiando o branch master para o repositorio origem do git hub
+
+git push -u origin master
+vai pedir o usuario e a senha como token 
+
+mudar senha nas credenciais 
+gabrielmaia@gabrielmaia-VirtualBox:~/Área de Trabalho/git$ git config --global credential.helper cache
+gabrielmaia@gabrielmaia-VirtualBox:~/Área de Trabalho/git$ git push origin master 
+
+
+como reverter e  pedir senha denovo (token expira)
+	git config --global --unset credential.helper
+	quando der o git oush origin master vai pedir a senha denovo 
+
+vai pedir emial e  senha e  ja salva automatico 
+
+agora no repositio cria o branch master  
+agora temos o repositio dentro do git hub 
+
+========
+
+git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+==========
+
+enviar do local pro remoto as modificações dos arquivos 
+
+com isso é so usar os add e  comit para mudar as coisas dentro do git hub 
+git add -A
+git commit -am "Frase"
+git push origin master  --> cadastrados a origin como destino o destino é esse projeto para savar e a  branch para enviar 
+
+==================
+
+155:40
+
