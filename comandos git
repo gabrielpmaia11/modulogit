@@ -43,6 +43,18 @@ parei no 1:05
 	
 	git reset --hard   ebc86294f0f3a8609c6c87eb62c4017d693e9368
 
+
+
+arthur freitas
+há 1 ano
+qual é a diferença entre o git reset --soft e o git revert?
+Responder
+
+1 resposta
+drifogo
+drifogo
+há 1 ano
+git reset é para um branch, git revert é para um commit
 =========================================
 
 
@@ -86,4 +98,28 @@ quando crio ele nao vai pra ela apenas cria
 
 
 1:17:30 ss
+
+Ver diferença de arquivos e voltar para arquivos (antes do commit e  add)
+
+git diff--> ver as mofificações, vermelho é o anterior e  o verde com o mais é a  adicao com alteraçlão entao foi do vermelho para o novo verde e  quiandmo adiciona nova linha ele mostra em baixo
+
+git
+git diff --name-only -->serve para ver todos os arquivos alterados
+
+git diff README.md -->ver alterações em apenas um arquivo 
+
+voltar no codigo antes das alterações 
+git checkout HEAD -- README.md  o head é a  branch atual.
+
+============================
+
+
+1:27:26
+
+
+=====
+
+Começando com o GITHUB 
+repositorios remotos--> pegar o local do nosso pc master e  mandar pra nuvem no github
+
 
