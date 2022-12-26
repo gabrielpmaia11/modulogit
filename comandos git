@@ -236,3 +236,28 @@ temos acesso ao commit com o problema sem perder o codigo que fizemos
 ============================
 
 2:7 como deletrar branchs remotas 
+deletadno do remoto e  deixando no local 
+
+usando o git 
+
+git push origin :teste2 com isso vai deletar o teste2 branch
+
+: signigfica deletar commits e  tags 
+podemos deletar 
+
+
+deletar branch local 
+
+ate o momento estavamos da trest2 ou master
+
+pra deletar precisa sair do teste 2
+
+git branch -D teste2 deleta do local
+
+
+
+==================
+2:13 git pull existe do push e o pull, o push e  quando enviamos do resiitorio local ate do remoto e  o pull é quando 
+
+
+OBSERVAÇÂO LOCLA E REMOTO, no terminarl tem 2 divisoeso oringein com o master e  o master head, com isso se aparecer seu repositorio local tem 2 commits a frente que o remoto basta dar add para dicionar e salvar tudo
