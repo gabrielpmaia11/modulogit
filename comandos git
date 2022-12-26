@@ -201,7 +201,5 @@ git push origin master  --> cadastrados a origin como destino o destino é esse 
 
 ==================
 
-155:40
-
-gitignore, colocamos arquivos para o git nao incluir dentro, como o *.sql, *.txt,sobre diretorios pasta/ que ignora ou pasta/*
+155:40a
 
