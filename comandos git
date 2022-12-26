@@ -260,4 +260,31 @@ git branch -D teste2 deleta do local
 2:13 git pull existe do push e o pull, o push e  quando enviamos do resiitorio local ate do remoto e  o pull é quando 
 
 
-OBSERVAÇÂO LOCLA E REMOTO, no terminarl tem 2 divisoeso oringein com o master e  o master head, com isso se aparecer seu repositorio local tem 2 commits a frente que o remoto basta dar add para dicionar e salvar tudo
+OBSERVAÇÂO LOCLA E REMOTO, no terminarl tem 2 divisoeso oringein com o master e  o master head, com isso se aparecer  no git status seu repositorio local tem 2 commits a frente que o remoto basta dar add para dicionar e salvar tudo com o push origin master
+
+
+
+
+origin   e o destino  e o master e  o rbanch que ta enviando 
+
+
+o pull é pra pegar coisas que estamso detnro do remoto se eu modifiquei la que nao ta no local ou outra pessoa fez isso m entao pra modificar isso e  so pegar as coisas com o pull
+
+em vez od push damos o pull
+pra pegar as coisas e  trazer os commits aqui no local pra tualziar os repositorios locais 
+
+git pull origin master 
+
+
+trazando os cmitrs das astualizaçãoes tambem manda tamem oo autor do projeto com o susuario 
+RECOMENTAÇÂO ANTES DE DAR UM PUSH DAMOS UM PULL commits e  add, na ora do upsh, antes da pull pegar as coisas do remoto juntar com o local e  juntamos tudo com as coisas do remoto e local
+para evitar coonflitos 
+
+
+-========
+
+2:20   --clonar projeto 
+ pegar um projeto do git hub e  pegar  e colocar no local o clone nao pucha o repositorio clona uma copia desse repositorio no local, nao sou o dono , entao nao consigo fazer alteralções nese repositorios podemos retribuir para clonar 
+ 
+ clonar pra pegar ele , so fazer uma pasta tipo do servidor , e  dar um clone  com git clone e a url htttps://github.com;uçport/modulogit e  ai na pasta tem o clone  os arquivos do repotiroio remoto 
+
