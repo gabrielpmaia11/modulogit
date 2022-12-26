@@ -201,5 +201,38 @@ git push origin master  --> cadastrados a origin como destino o destino é esse 
 
 ==================
 
-155:40a
+155:40
 
+gitignore, colocamos arquivos para o git nao incluir dentro, como o *.sql, *.txt,sobre diretorios pasta/ que ignora ou pasta/*, ai nao envia pro projeto, ai dentro dele tem a remoção de varias pastas 
+
+
+
+=======================
+
+2:00
+git revert 
+
+volta comitando 
+
+como o git reset mas , a dferenca e quqe com o git revert temos acesso ao commit errado , o salvador das sexta feira, enviamos o codifo no im do dia no ar e  no momento ele da bug, ai podemos
+usar o rever t 
+o reset perdemos as alterações e  funcionadadees interia, dso queremos reverter para corrigi depois , pegamos o codigo do commit errado 
+9b0b40280a00eb6c7d493ec7e7c0280f94cbc883
+
+quando usamos o revert ele abre o editor que cadastrasmos, com as alterações , no caso com o revert cnao QUEREMOS abrir temquer dar um comando chamado,git revert --no-edit 
+nao vai mudar vai voltar o comit ao contrario, as linhas voltam, ai 
+
+git revert --no git 9b0b40280a00eb6c7d493ec7e7c0280f94cbc883
+
+
+sair do git log com q porque tem muitos commits
+
+
+se dermos git log , temos ainda o commit, do anterior 
+
+temos acesso ao commit com o problema sem perder o codigo que fizemos
+
+
+============================
+
+2:7 como deletrar branchs remotas 
