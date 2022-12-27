@@ -288,3 +288,6 @@ para evitar coonflitos
  
  clonar pra pegar ele , so fazer uma pasta tipo do servidor , e  dar um clone  com git clone e a url htttps://github.com;uçport/modulogit e  ai na pasta tem o clone  os arquivos do repotiroio remoto 
 
+
+
+fork é pra pegar um codigo e  modifigcar ele e  depois poder ddar como sugestao para outra epssoa e  pegar de um repositorio , e o pull request  a gente manda e o merge juntamos branchs 
